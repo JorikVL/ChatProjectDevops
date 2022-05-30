@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: ghcr.io/JorikVL/auth:latest
+          image: 121706/devopschatauth:latest
           ports:
           - containerPort: 3000
 ---

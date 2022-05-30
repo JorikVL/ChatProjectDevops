@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: chat
-          image: ghcr.io/JorikVL/chat:latest
+          image: 121706/devopschatbase:latest
           ports:
           - containerPort: 3000
 ---
